@@ -1,0 +1,108 @@
+div.formContainer form span.element_error {
+    background  : rgba(255, 8, 0, 0.75);
+    display     : inline-block;
+    font-size   : 1em !important;
+    margin-left : 10px;
+    padding     : 1px 5px;
+    color : white;
+}
+label {
+    font-size   : 1.9em;
+}
+div.formContainer form .error {
+    background-color : #FFC9C9 !important;
+    color            : #191919;
+}
+h1 {
+    margin-bottom:20px;
+}
+p {
+    margin-bottom:1.5em !important;
+}
+.btn-alt {
+    background-color : #ccc;
+}
+.modal-body p {
+    font-size:1.5em !important;
+}
+#logotype {
+font-size : 2.5em;
+    color : #72A230;
+}
+.centered {
+    width:100%;
+    margin: 0 auto;
+}
+.testimony {
+}
+.testimony .inner {
+    padding       : 10px;
+    margin-bottom : 30px;
+    font-size: 14px;
+    line-height: 24px;
+}
+.inner.bl {
+    border-left        : 1px solid #E0F3FF;
+    padding-left: 24px;
+}
+.inner.br {
+    border-right : 1px solid #E0F3FF;
+    padding-right : 24px;
+}
+.testimony i {
+    background  : #00acc1;
+    padding     : 25px 30px;
+    font-size   : 31px;
+    color       : #ffffff;
+    text-shadow : 4px 3px 0px rgba(0, 0, 0, 0.1);
+    margin-bottom:20px;
+}
+.testimony i {
+    background : #6CB1DA;
+}
+.testimony hr {
+    background-color : #009caf;
+    border-top       : 1px solid #A2CEE8;
+    width:20%;
+}
+.invited-by {
+    position    : absolute;
+    font-size   : 14px;
+    font-weight : bold;
+    padding     : 2px 8px;
+    border-radius: 3px;
+    margin-top  : 2px;
+    margin-left : 2px;
+}
+.blink {
+    -webkit-animation-name            : blinker;
+    -webkit-animation-duration        : 1.5s;
+    -webkit-animation-timing-function : linear;
+    -webkit-animation-iteration-count : infinite;
+    -moz-animation-name               : blinker;
+    -moz-animation-duration           : 1.5s;
+    -moz-animation-timing-function    : linear;
+    -moz-animation-iteration-count    : infinite;
+    animation-name                    : blinker;
+    animation-duration                : 1.5s;
+    animation-timing-function         : linear;
+    animation-iteration-count         : infinite;
+}
+
+@-moz-keyframes blinker {
+    0% { color : #333333; }
+    50% { color : #ff0000; background:#ddd;}
+    100% { color : #333333; }
+}
+
+@-webkit-keyframes blinker {
+    0% { color : #333333; }
+    50% { color : #ff0000; background : #ddd;}
+    100% { color : #333333; }
+}
+
+@keyframes blinker {
+    0% { color : #333333; }
+    50% { color : #ff0000; background : #ddd;}
+    100% { color : #333333; }
+}

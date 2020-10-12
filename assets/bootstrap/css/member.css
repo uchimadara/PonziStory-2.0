@@ -1,0 +1,530 @@
+h2.username {
+    font-size      : 13pt;
+    display        : inline-block;
+    margin         : 0;
+    width          : 100%;
+    padding        : 7px 10px 7px;
+}
+.accountSummary {
+    line-height : 17px;
+    display     : inline-block;
+    margin-left: 10px;
+}
+.accountLabel {
+    clear : both;
+    font-size : 10pt;
+}
+.accountStat {
+    font-size     : 11pt;
+    margin-bottom : 6px;
+    color         : #F5F079;
+}
+.bg-d {
+    background-color : rgba(0, 0, 0, .5);
+}
+.modal-body {
+    font-size : 1.5em !important;
+}
+.accountBalance {
+    float            : left;
+    background-color : white;
+    padding          : 8px 0;
+    text-align       : center;
+    width            : 220px;
+    border           : 1px solid #cccccc;
+    margin-right     : 24px;
+    font-size   : 14px;
+    color       : #0E790E;
+    line-height: 21px;
+}
+.accountBalance .head {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom:15px;
+}
+/****
+* Text Ads
+*****/
+.textAdArea {
+}
+.ta {
+    padding       : 2px 4px;
+    color         : #999;
+    line-height   : 17px;
+    margin-bottom : 8px
+}
+.ta a {
+    color     : #8EE2E9;
+    font-size : 9pt;
+}
+
+.ta .line1 {
+    color       : #2767FF;
+    font-size   : 10pt;
+    font-weight : bold;
+}
+.ta .line2 {
+    font-size : 10pt;
+}
+.ta .line3 {
+    font-size : 9pt;
+    font-weight: bold;
+}
+/****/
+
+.balanceLabel {
+    width:120px;
+    text-align: left;
+    display: inline-block;
+}
+.balance {
+    width:90px;
+    text-align: right;
+    display : inline-block;
+}
+
+table.myMonitor th {
+    font-family   : Calibri, Geneva, sans-serif;
+    font-weight   : bold;
+    font-size     : 12pt;
+    border-bottom : 1px solid #5d0000;
+}
+
+table.myMonitor {
+    border-spacing  : 0;
+    border-collapse : separate;
+}
+table.myMonitor th.status {
+    width : 145px;
+}
+table.myMonitor th.count {
+    width : 112px;
+    text-align: right;
+}
+table.myMonitor th.invest {
+    width : 170px;
+    text-align : right;
+}
+table.myMonitor th.cashout {
+    width : 170px;
+    text-align : right;
+}
+table.myMonitor th.roi {
+    width : 100px;
+    text-align : right;
+}
+table.myMonitor td {
+    padding: 4px 0;
+}
+table.myMonitor td.status {
+    border-top:inherit;
+    font-weight: bold;
+}
+table.myMonitor td.count {
+    text-align : right;
+    border-top : inherit;
+}
+table.myMonitor td.invest {
+    text-align : right;
+    border-top : inherit;
+}
+table.myMonitor td.cashout {
+    text-align : right;
+    border-top : inherit;
+}
+table.myMonitor td.roi {
+    text-align : right;
+    border-top : inherit;
+}
+table.myMonitor tr.totalRow {
+    font-size:16pt;
+    font-weight: bold;
+    border-top: 1px solid #5d0000;
+}
+table.userListings {
+    border-spacing  : 0;
+    border-collapse : separate;
+}
+table.userListings th {
+    font-family   : Calibri, Geneva, sans-serif;
+    font-weight   : bold;
+    font-size     : 12pt;
+    border-bottom : 1px solid #5d0000;
+}
+table.userListings td {
+    font-size     : 11pt;
+    padding : 4px 0;
+}
+table.userListings th.buttons {
+    width : 70px;
+}
+
+table.userListings th.name {
+    width : 185px;
+}
+table.userListings th.created {
+    width      : 135px;
+}
+table.userListings th.status {
+    width : 72px;
+}
+table.userListings th.views {
+    width      : 60px;
+}
+
+table.userListings th.clicks {
+    width      : 60px;
+}
+table.userListings th.invest, td.invest {
+    width      : 90px;
+    text-align : right;
+}
+
+table.userListings th.cashout, td.cashout {
+    width      : 90px;
+    text-align : right;
+}
+table.userListings th.roi, td.roi {
+    width      : 90px;
+    text-align : center;
+}
+table.userListings tr:nth-child(even) {
+    background-color : #D7E4D5;
+}
+
+table.profile {
+    width:600px;
+}
+table.profile td {
+    padding : 4px 0;
+}
+table.profile td:nth-child(odd) {
+    width:250px;
+}
+
+#sigEdit{
+    width:100%;
+}
+input[name="imageURL"] {
+    /*width:inherit;*/
+}
+table.campaignStats {
+    border-spacing  : 0;
+    border-collapse : separate;
+    padding:0;
+    line-height: 1.25em;
+}
+
+.memberForm {
+    background    : #ffffff;
+    padding       : 10px;
+    margin-bottom : 10px;
+    border : 1px solid #cccccc;
+}
+.formLabel {
+    float        : left;
+    width        : 150px;
+    margin-right : 11px;
+}
+.formField {
+    float : left;
+}
+.formField.checkList {
+    max-width  : 631px;
+    text-align : left;
+    height     : auto;
+}
+.checkList input[type=checkbox] {
+    top : 1px;
+}
+.checkList table {
+    border-spacing  : 0;
+    border-collapse : collapse;
+}
+.checkList table td {
+    padding : 0 5px;
+}
+.formRow {
+    margin-bottom : 10px;
+}
+.formRow:after {
+    clear      : both;
+    content    : ".";
+    display    : block;
+    height     : 0;
+    visibility : hidden;
+}
+.pagination {
+    width       : 100%;
+    color       : rgba(255, 255, 255, 0.6);
+    font-size   : 9pt;
+    font-family : Verdana, Arial, Helvetica, san-serif;
+    display:inline; /* override till bootstrap paging. */
+}
+.paging {
+    width   : 50%;
+    display : inline-block;
+}
+.perPage {
+    width      : 48%;
+    display    : inline-block;
+    text-align : right;
+    color   : #339966;
+}
+.perPage span {
+    padding : 2px;
+}
+
+.perPageLinks {
+    color   : #339966;
+    padding : 4px 8px 4px 8px;
+    display : inline-block;
+}
+.perPageLinks a {
+    color   : #339966;
+    padding : 2px;
+}
+.perPageLinks a:hover {
+    text-decoration : none !important;
+    color           : #339966;
+}
+
+.pageLinks {
+    color   : #339966;
+    margin-top    : 5px;
+    margin-bottom : 3px;
+    margin-left   : 5px;
+    font-size     : 8pt;
+    display       : inline-block;
+}
+.pageLinks a {
+    color           : #333;
+    text-decoration : none;
+}
+.pageLinks a:hover {
+    text-decoration : underline;
+    color           : #339966;
+}
+table.memberList {
+    width           : 100%;
+    border-spacing  : 0;
+    border-collapse : collapse;
+}
+table.memberList th {
+    font-weight : normal;
+    font-size   : 18px;
+    font-family : Verdana, Arial, helvetica;
+    padding     : 2px 6px;
+}
+table.memberList td {
+    padding : 2px 6px;
+}
+
+table.memberList tr:nth-child(even) {
+    background-color : #CDDBCB;
+}
+table.memberList input[type=text] {
+    background-color:white;
+    color:#191919;
+}
+table.textAdList {
+    width           : 100%;
+    border-spacing  : 0;
+    border-collapse : collapse;
+    font-size:12px;
+}
+table.textAdList th {
+    font-weight : normal;
+    font-size   : 14px;
+    font-family : Verdana, Arial, helvetica;
+    padding     : 2px 6px;
+}
+table.textAdList td {
+    padding : 2px 6px;
+}
+
+table.textAdList tr:nth-child(even) {
+    background-color : #D7E4D5;
+}
+table.textAdList input[type=text] {
+    background-color : white;
+    color            : #191919;
+}
+table.historyList {
+    width           : 100%;
+    border-spacing  : 0;
+    border-collapse : collapse;
+    font-size       : 12px;
+    font-family: Consolas;
+    border           : 1px solid #B6B6B6;
+    background-color : #FFF;
+}
+table.historyList th {
+    font-weight : normal;
+    font-size   : 14px;
+    font-family : Verdana, Arial, helvetica;
+    padding     : 2px 6px;
+}
+table.historyList td {
+    padding : 2px 6px;
+}
+
+table.historyList tr:nth-child(even) {
+    background-color : #DDF5D9;
+}
+table.historyList input[type=text] {
+    background-color : white;
+    color            : #191919;
+}
+
+form[name=acForm] .bottom {
+    text-align: right;
+    margin-right:50px;
+}
+table.adDetails td, table.adDetails th {
+    padding:1px 4px;
+}
+table.adDetails tr:nth-child(even) {
+    background-color : #CDDBCB;
+}
+#sigDisplay {
+    font-family : Verdana, Arial, helvetica;
+    font-weight : normal;
+    font-size   : 14px;
+    padding     : 2px 6px;
+    margin           : 20px -4px -10px;
+    border-top       : 1px dotted;
+    background-color : rgba(241, 255, 241, 1);
+}
+.memberRefLink {
+    border  : 1px solid green;
+    padding : 10px;
+    margin  : 10px 0;
+    width:80%;
+}
+.referralUrl {
+    font-size : 14pt;
+    padding   : 9px;
+    border    : 1px solid #9E8E34;
+    display   : inline-block;
+    margin    : 10px;
+}
+div.code {
+    border      : 1px solid #0824ff;
+    background-color: #d5d5d5;
+    display     : block;
+    margin      : 10px 0;
+    padding     : 5px 10px;
+    white-space : normal;
+    color:#191919;
+}
+div.referralBanner {
+    font-size:13px;
+}
+div.referralBanner a {
+    display : block;
+    padding : 10px 0;
+}
+div.referralBanner img {
+    display : block;
+}
+div.referralBanner code {
+    border  : 1px solid #cccccc;
+    display : block;
+    margin  : 10px 0;
+    padding : 5px 10px;
+    white-space : normal;
+}
+
+div.referralBanner img {
+    max-width : 710px;
+}
+table.click_statsList {
+    width           : 100%;
+    border-spacing  : 0;
+    border-collapse : collapse;
+    font-size       : 12px;
+}
+table.click_statsList th {
+    font-weight : normal;
+    font-size   : 14px;
+    font-family : Verdana, Arial, helvetica;
+    padding     : 2px 6px;
+}
+table.click_statsList td {
+    padding : 2px 6px;
+}
+
+table.click_statsList tr:nth-child(even) {
+    background-color : #D7E4D5;
+}
+table.click_statsList input[type=text] {
+    background-color : white;
+    color            : #191919;
+}
+.settingLabel {
+    float         : left;
+    font-size     : 12pt;
+    padding       : 4px 10px;
+    margin-bottom : 12px;
+}
+.make-switch.right {
+    float:right;
+    width: 80px;
+    margin: 4px 10px 4px 0;
+}
+.make-switch-portfolio.right {
+    width: 140px;
+}
+
+#message_box {
+    -moz-box-shadow       : 3px 3px 5px #888;
+    -webkit-box-shadow    : 3px 3px 5px #888;
+    -webkit-border-radius : 5px;
+    -khtml-border-radius  : 5px;
+    background-color : #474747;
+    color            : #E2E2E2;
+    border                : 1px solid black;
+    box-shadow            : 2px 2px 2px #888;
+    display               : none;
+    /*min-width             : 250px;*/
+    padding               : 0;
+    position              : absolute;
+}
+.boxList {
+    /*min-height                  : 51px;*/
+    max-height                  : 400px;
+    padding : 2px 5px;
+    overflow-y                  : scroll;
+    font-size                   : 13px;
+    line-height                 : 16px;
+    scrollbar-base-color        : #C0C0C0;
+    scrollbar-base-color        : #C0C0C0;
+    scrollbar-3dlight-color     : #C0C0C0;
+    scrollbar-highlight-color   : #C0C0C0;
+    scrollbar-track-color       : #EBEBEB;
+    scrollbar-arrow-color       : black;
+    scrollbar-shadow-color      : #C0C0C0;
+    scrollbar-dark-shadow-color : #C0C0C0;
+}
+
+.boxList a {
+    display:block;
+    clear:both !important;
+}
+
+.boxList::-webkit-scrollbar { width : 3px; height : 3px; }
+.boxList::-webkit-scrollbar-button { background-color : #666; }
+.boxList::-webkit-scrollbar-track { background-color : #999; }
+.boxList::-webkit-scrollbar-track-piece { background-color : #ffffff; }
+.boxList::-webkit-scrollbar-thumb { height : 50px; background-color : #666; border-radius : 3px; }
+.boxList::-webkit-scrollbar-corner { background-color : #999; }
+.boxList::-webkit-resizer { background-color : #666; }
+
+.alertSelect {
+    float : right;
+    width : 40%;
+}
+#msgMember{
+    margin-top: 10px;
+}

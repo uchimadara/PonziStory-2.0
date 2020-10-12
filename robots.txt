@@ -1,0 +1,25 @@
+User-agent: /application/views
+User-agent: /.htaccess
+User-agent: /index.php
+Disallow: *
+
+User-agent: *
+Crawl-delay: 30
+
+
+User-agent: Wget
+Disallow: /
+
+User-agent: Mediapartners-Google
+Disallow: /
+
+User-agent: Adsbot-Google
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Googlebot-Mobile
+Allow: /
+
+Sitemap: https://tdm.nghelpers.com/sitemap.xml

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+https://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+    <url><loc>https://tdm.nghelpers.com/</loc></url>
+    <url><loc>https://tdm.nghelpers.com/support</loc></url>
+    <url><loc>https://tdm.nghelpers.com/page/faqs/</loc></url>
+    <url><loc>https://tdm.nghelpers.com/page/howitworks</loc></url>
+    <url><loc>https://tdm.nghelpers.com/testimonials</loc></url>
+    <url><loc>https://tdm.nghelpers.com/register</loc></url>
+    <url><loc>https://tdm.nghelpers.com/page/about</loc></url>
+    <url><loc>https://tdm.nghelpers.com/news/</loc></url>
+    <url><loc>https://tdm.nghelpers.com/teams/</loc></url>
+    <url><loc>https://tdm.nghelpers.com/login/</loc></url>
+</urlset>

@@ -1,0 +1,46 @@
+.switchi .switchi_radio_label{
+	display:inline-block;
+	line-height:28px;
+	color:#666666;
+	cursor:pointer;
+}
+
+.switchi .switchi_radio_label.active{
+	color:#21282E;
+}
+
+.switchi .switchi_button{
+	display:inline-block;
+	width:45px;
+	height:28px;
+	background:#ababab;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	position: relative;
+	top:7px;
+	margin:0px 5px;
+	cursor:pointer;
+}
+
+.switchi .switchi_button.active{
+	background:#00ACE6;
+}
+.switchi_button:after{
+	content:'';
+	display:inline-block;
+	position:absolute;
+	width:22px;
+	height:22px;
+	background:#fff;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	left:2px;
+	top:3px;
+}
+
+.switchi .switchi_button.active:after{
+	left:auto;
+	right:2px;
+}

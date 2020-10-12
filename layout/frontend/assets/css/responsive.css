@@ -1,0 +1,207 @@
+/*==================================================
+=            Bootstrap 3 Media Queries             =
+==================================================*/
+ 
+ 
+/*==========  Mobile First Method  ==========*/
+ 
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+}
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+}
+
+
+/*==========  Non-Mobile First Method  ==========*/
+ 
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1199px) {
+html {
+	font-size: 90%;
+}
+.bg-img-box .caption .title {
+	font-size: 24px;
+	margin-top: 0px;
+}
+.testimonial-carousel .owl-controls .owl-pagination {
+	margin-right: 15px !important;
+}
+}
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 991px) {
+html {
+	font-size: 75%;
+}
+.navbar-nav  .dropdown-menu {
+    left: auto;
+}
+#header-logo {
+	padding: 10px 15px;
+}
+section > .container, section > .container-fluid {
+	padding-bottom: 30px;
+}
+.divider .container {
+}
+.header .navbar-default .navbar-nav > li > a::after {
+	display: none;
+}
+.team-member, .working-progress {
+	margin-bottom: 60px !important;
+}
+.testimonial-carousel .owl-controls .owl-pagination {
+	margin-right: 0px !important;
+}
+.map {
+	margin-top: 30px;
+}
+.curve-bg:after, .curve-bg-half:after {
+	left: auto;
+	-webkit-transform: rotate(-0deg);
+	-moz-transform: rotate(-0deg);
+	-ms-transform: rotate(-0deg);
+	-o-transform: rotate(-0deg);
+	transform: rotate(-0deg);
+}
+.blog-posts .entry-header .entry-title {
+	padding-top: 0;
+}
+.blog-posts .entry-header .entry-date {
+	margin-left: 0;
+}
+.contact-wrapper {
+    padding: 50px 30px;
+}
+.header #header-logo {
+	padding-top: 20px;
+}
+.boxed-layout .header #header-logo,
+.vertical-header .header #header-logo {
+	padding-top: 10px;
+}
+.header .navbar-default .navbar-toggle {
+	margin-top: 18px;
+}
+.boxed-layout .header .navbar-default .navbar-toggle {
+	margin-top: 8px;
+}
+.header #header-logo img {
+	height: 30px;
+}
+.pricing-table .table-price {
+	font-size: 30px;
+}
+.bg-img-box .caption .title {
+	font-size: 18px;
+	margin-top: 0px;
+}
+.bg-img-box .caption .schedule {
+	font-size: 14px;
+	margin-top: 0px;
+}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+html {
+	font-size: 60%;
+}
+.box-hover-effect {
+	float: none;
+}
+#header-logo {
+	padding: 10px 15px;
+}
+#spinner {
+	left: 42%;
+}
+.navbar-default .navbar-toggle {
+	margin-top: 15px;
+	border-radius: 0px;
+}
+#home .display-table p {
+	margin: 15px 0;
+	font-size: 14px;
+}
+.icon-box {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.icon-box {
+	text-align: center;
+}
+.icon-box.left {
+	text-align: center;
+}
+.icon-box.left a {
+	margin-right: 0;
+	padding: 0;
+}
+.icon-box .media-left {
+	float: none !important;
+	margin: 0 0 30px 0;
+}
+.icon-box .media-left, .icon-box .media-right, .icon-box .media-body {
+	display: block;
+	width: auto;
+}
+.call-to-action {
+	text-align: center;
+}
+.call-to-action .icon {
+	float: none;
+}
+.sidebar.pull-left,
+.sidebar.pull-right {
+	float: none !important;
+}
+.blog-posts .entry-meta {
+	background: none;
+	left: auto;
+	position: relative;
+	top: auto;
+}
+.testimonial-carousel.boxed .owl-dots {
+ 	text-align: center;
+}
+.bg-img-box .caption .title {
+	font-size: 24px;
+	margin-top: 30px;
+}
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 479px) {
+html {
+	font-size: 50%;
+}
+.post > div {
+	width: 100%;
+}
+.vertical-text-carousel .owl-controls .owl-buttons {
+	top: 18%;
+}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 319px) {
+html {
+	font-size: 35%;
+}
+}

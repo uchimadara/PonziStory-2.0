@@ -1,0 +1,657 @@
+@import url(header.css);
+@import url(menu.css);
+@import url(forms.css);
+@import url(messages.css);
+@import url(footer.css);
+@import url(modal.css);
+
+@font-face {
+    font-family : 'open_sansregular';
+    src         : url('../../fonts/OpenSans-Regular-webfont.eot');
+    src         : url('../../fonts/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/OpenSans-Regular-webfont.woff') format('woff'),
+    url('../../fonts/OpenSans-Regular-webfont.ttf') format('truetype'),
+    url('../../fonts/OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
+    font-weight : normal;
+    font-style  : normal;
+}
+
+html, body {
+     background     : url(../images/bg_felt_tile.jpg) #709772 fixed repeat;
+    /*background-color: #C6CFC2;*/
+    color          : #123A1B;
+    font           : 13pt/20pt Calibri, Arial, sans-serif;
+    line-height    : 1.5em;
+    margin         : 0;
+    padding        : 0;
+    vertical-align : middle;
+}
+.underConstruction {
+    background: url(../images/peek.jpg) no-repeat;
+    width: 500px;
+    height: 334px;
+    margin: 50px auto 0;
+}
+.ucTitle {
+    padding     : 8px;
+    color       : #727E72;
+    text-shadow : 1px 1px #B7D4B0;
+    font-weight : bold;
+}
+.clearFix:after {
+    clear      : both;
+    content    : ".";
+    display    : block;
+    height     : 0;
+    visibility : hidden;
+}
+.front-page {
+    padding-top:20px;
+}
+.clearFix {
+    display : inline-block;
+}
+
+.clear {
+    clear  : both;
+    height : 0;
+}
+
+a {
+    color           : rgb(53, 85, 211);
+    text-decoration : underline;
+}
+
+a:hover {
+    /*text-shadow     : 1px 1px 1px #ddda13;*/
+    text-decoration : underline;
+}
+
+a img {
+    border : 0; /* For IE */
+}
+h1 {
+    margin-top    : 10px;
+    margin-bottom : 10px;
+    color       : #517451;
+    text-shadow : 1px 1px #DDD;
+}
+h2 {
+    margin-bottom : 10px;
+    color : #587658;
+}
+h3 {
+    color         : #587658;
+}
+
+.strikethrough {
+    text-decoration : line-through;
+}
+.underline {
+    text-decoration : underline;
+}
+
+.hidden {
+    display : none;
+}
+.error {
+    border : 1px solid #e34550;
+    background  : #ffc2c7 url(images/ui-bg_highlight-soft_20_ffc2c7_1x100.png) 50% top repeat-x;
+    padding     : 2px 10px;
+    color       : #DA1928;
+    font-weight : bold;
+    display     : inline-block;
+}
+
+.defaultPage {
+    border           : .1em solid #87AF87;
+    background : rgba(235, 250, 235, 0.6);
+    padding          : 20px;
+    box-shadow       : 2px 2px 2px #808080;
+}
+/************ MAIN CENTERED COLUMN **********/
+#column {
+    margin        : 125px auto 0;
+    min-width:530px;
+    max-width:850px;
+    text-align    : left;
+    padding-top   : 2px;
+    padding-left  : 6px;
+    padding-right : 6px;
+}
+
+.half {
+    float       : left;
+    width       : 48%;
+    line-height : 26px;
+}
+.halfRight {
+    float : right;
+    width : 48%;
+}
+.mlHeadButton {
+    display            : inline-block;
+    /*border-left        : 1px solid #64AC67;*/
+    padding            : 4px 10px 0;
+    text-decoration    : none;
+    -moz-border-radius : 3px;
+    font-family        : "Calibri", "Verdana", sans-serif;
+    font-size          : 14px;
+    color              : #faf99e;
+    /*background-color : #2A502A;*/
+    text-transform     : uppercase;
+    -o-transition      : color .2s ease-out, background .3s ease-in;
+    -ms-transition     : color .2s ease-out, background .3s ease-in;
+    -moz-transition    : color .2s ease-out, background .3s ease-in;
+    -webkit-transition : color .2s ease-in;
+    /* ...and now override with proper CSS property */
+    transition         : color .2s ease-in;
+}
+.mlHeadButton.rightEnd {
+    /*border-right     : 1px solid #64AC67;*/
+    /*background-color : #990000;*/
+}
+.mlHeadButton:hover {
+    background      : #ffca2b;
+    background      : -webkit-gradient(linear, left top, left bottom, from(#ffca2b), to(#e8ae00));
+    background      : -moz-linear-gradient(top, #ffca2b, #e8ae00 90%);
+    filter          : progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFCA2B', endColorstr='#E8AE00');
+    color           : black;
+    text-decoration : none;
+}
+.squareButton {
+    display               : inline-block;
+    border                : 1px solid #C92C40;
+    color                 : #faf99e;
+    padding               : 4px 8px;
+    background-color      : #990000;
+    text-decoration       : none;
+    /*-webkit-border-radius : 3px;*/
+    /*-moz-border-radius    : 3px;*/
+    /*border-radius         : 3px;*/
+    box-shadow            : 1px 1px 2px #333333;
+    font-family           : "Calibri", "Arial", sans-serif;
+}
+.squareButton:focus {
+    outline : none;
+}
+.squareButton.slim {
+    padding        : 2px 4px;
+    font-size      : 13px;
+    font-weight    : normal;
+    text-transform : uppercase;
+    line-height    : 12px;
+    box-shadow     : 1px 1px 2px #000000;
+}
+.squareButton:hover {
+    color            : #f4f399;
+    border           : 1px solid #ff0000;
+    text-decoration  : none;
+    background-color : #b00000;
+    text-shadow      : none;
+}
+.squareButton:active {
+    position   : relative;
+    top        : 1px;
+    box-shadow : none;
+}
+
+.squareButton.green {
+    border           : 1px solid #64AC67;
+    color            : #faf99e;
+    background-color : #2A502A;
+}
+.squareButton.green:hover {
+    color            : #faf99e;
+    border           : 1px solid #6bff75;
+    background-color : #095D06;
+}
+
+.activeGreen {
+    color            : #faf99e;
+    border           : 1px solid #6bff75;
+    background-color : #095D06;
+    position   : relative;
+    top        : 1px;
+    box-shadow : none;
+}
+
+/****** CONTENT ***********************/
+#content {
+    min-height : 600px;
+    /*padding          : 8px 20px;*/
+}
+#leftMargin {
+    float   : left;
+    width   : 15%;
+    display : inline-block;
+    content : ".";
+}
+#contentRight {
+    border-left : 2px ridge #990000;
+    float       : left;
+    width       : 740px;
+    padding     : 5px 20px 20px;
+    min-height  : 500px;
+}
+#content:after {
+}
+div.mainRound {
+    margin           : 10px 0 12px;
+    font-family      : open_sansregular, sans-serif;
+    color            : #6D6D6D;
+    box-shadow       : 1px 1px 2px 1px #4B4610;
+    background-color : #F6FFF0;
+}
+
+div.mainRound h2 {
+}
+
+div.mainRound .heading {
+    margin    : 0px;
+    padding   : 5px;
+    /* background-color               : rgb(19, 127, 57); */
+    font-size : 16pt;
+}
+.headingTitle {
+    padding : 8px;
+    color       : #12B412;
+    text-shadow : 1px 1px #333333;
+    font-weight : bold;
+}
+.headerButton {
+    float       : right;
+    margin-left : 20px;
+    /* margin-top: -1px; */
+    display     : inline-block;
+    line-height : 23px;
+}
+.headerButton a {
+    color           : #045504;
+    display         : inline-block;
+    font-size       : 13px;
+    padding         : 1px 8px;
+    text-decoration : none;
+    font-family     : calibri;
+    font-weight     : 600;
+    border-bottom   : 2px solid rgb(170, 177, 172);
+    text-transform  : uppercase;
+}
+.headerButton a:hover {
+    /* background : #ffca2b; */
+    border-bottom : 2px solid green;
+    background    : -moz-linear-gradient(#ffca2b, #e8ae00 90%);
+    background : linear-gradient(#ffca2b, #e8ae00 90%);
+    background : -webkit-linear-gradient(#ffca2b, #e8ae00 90%);
+    background : -o-linear-gradient(#ffca2b, #e8ae00 90%);
+    filter        : progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFCA2B', endColorstr='#E8AE00');
+    color         : rgb(9, 54, 25);
+}
+
+.headerControl {
+    float               : left;
+    width               : 14px;
+    height              : 14px;
+    font-size           : 18px;
+    border              : 1px solid #8b8b8b;
+    background          : url(../images/icons/plus_minus.png) no-repeat;
+    background-position : 0 -14px;
+    cursor              : pointer;
+    display             : inline-block;
+    margin              : 2px 7px 0 0;
+}
+.headerControl.plus {
+    background-position : 0 0;
+}
+
+div.mainRound .body {
+    /*    padding                           : 10px 17px;
+        background-color                  : #688665;
+        -webkit-border-radius-bottomleft  : 6px;
+        -webkit-border-radius-bottomright : 6px;
+        -moz-border-radius-bottomleft     : 6px;
+        -moz-border-radius-bottomright    : 6px;
+        border-bottom-left-radius         : 6px;
+        border-bottom-right-radius        : 6px;
+        font-size                         : 13pt;
+        line-height                       : 22pt;
+        margin                            : 0;
+        border-top                        : 1px solid #234b1f;*/
+    /* border                     : 1px solid rgb(33, 93, 33); */
+    padding     : 5px 10px;
+
+    /* background-color: #E8EBE8; */
+    color       : rgb(54, 117, 54);
+    font-size   : 16px;
+    line-height : 22px;
+    margin-bottom:20px;
+}
+
+div.mainRound .body a {
+    /*color : #9CFF83;*/
+}
+div.mainRound .body a:hover {
+    /*    text-decoration : underline;
+        color           : #ddda13;*/
+}
+.testoverlay {
+    background : url(images/ui-bg_loop_50_dfd8bd_21x21.png) 0 0 repeat #e5e5e5;
+    display    : block;
+    filter     : alpha(opacity=50);
+    height     : 100%;
+    left       : 0;
+    opacity    : 0.5;
+    top        : 0;
+    width      : 100%;
+    z-index    : 1098;
+}
+
+.overlay {
+    background-color : #e5e5e5;
+    filter           : alpha(opacity=50);
+    height           : 100%;
+    left             : 0;
+    opacity          : 0.5;
+    position         : fixed;
+    top              : 0;
+    width            : 100%;
+    z-index          : 1098;
+}
+#objOverlay {
+    display : none;
+}
+
+/****** Payment Method Icons **********/
+span.ppIcon {
+    background     : url(../images/icons/) no-repeat 0 0;
+    display        : inline-block;
+    height         : 18px;
+    margin-right   : 8px;
+    vertical-align : top;
+    width          : 45px;
+}
+
+span.ppIcon.bw {
+    background-position : 0 0;
+}
+
+span.ppIcon.ok {
+    background-position : 0 -18px;
+}
+
+span.ppIcon.pm {
+    background-position : 0 -36px;
+}
+
+span.ppIcon.ap {
+    background-position : 0 -162px;
+}
+
+span.ppIcon.pp {
+    background-position : 0 -90px;
+}
+span.ppIcon.py {
+    background-position : 0 -71px;
+}
+span.ppIcon.pz {
+    background-position : 0 -54px;
+}
+span.ppIcon.wu {
+    background-position : 0 -108px;
+}
+
+span.ppIcon.st {
+    background-position : 0 -126px;
+}
+
+span.ppIcon.bc {
+    background-position : 0 -144px;
+}
+span.ppIcon.lc {
+    background-position : 0 -180px;
+}
+
+/**** Sizes and paddings ***/
+div.floatLeft {
+    display : inline-block;
+    float   : left;
+}
+div.floatRight {
+    display : inline-block;
+    float   : right;
+}
+div.w800 {
+    width : 800px;
+}
+
+div.w875 {
+    width : 875px;
+}
+
+div.padding20 {
+    padding : 0 20px;
+}
+
+input.w80 {
+    width : 80px;
+}
+
+input.w45 {
+    width : 45em;
+}
+.left {
+    text-align : left;
+}
+
+.center {
+    text-align : center;
+}
+
+.right {
+    text-align : right;
+}
+
+.mLeft5 {
+    margin-left : 5px !important;
+}
+.mLeft10 {
+    margin-left : 10px !important;
+}
+.mLeft15 {
+    margin-left : 15px !important;
+}
+.mLeft20 {
+    margin-left : 20px !important;
+}
+.mLeft30 {
+    margin-left : 30px !important;
+}
+.mLeft50 {
+    margin-left : 50px !important;
+}
+.mLeft175 {
+    margin-left : 175px;
+}
+
+.mTop5 {
+    margin-top : 5px !important;
+}
+.mTop10 {
+    margin-top : 10px !important;
+}
+.mTop15 {
+    margin-top : 15px !important;
+}
+.mTop20 {
+    margin-top : 20px !important;
+}
+.mTop30 {
+    margin-top : 30px !important;
+}
+
+.mBottom5 {
+    margin-bottom : 5px !important;
+}
+.mBottom10 {
+    margin-bottom : 10px !important;
+}
+.mBottom20 {
+    margin-bottom : 20px !important;
+}
+.mBottom30 {
+    margin-bottom : 30px !important;
+}
+.mBottom40 {
+    margin-bottom : 40px !important;
+}
+
+.p10 {
+    padding : 10px;
+}
+
+.p15 {
+    padding : 15px;
+}
+
+.p20 {
+    padding : 20px;
+}
+
+.pb7 {
+    padding-bottom : 7px;
+}
+
+.p4 {
+    padding : 4px;
+}
+
+.pt7 {
+    padding-top : 7px;
+}
+.pt9 {
+    padding-top : 9px;
+}
+
+.pLeft25 {
+    padding-left : 25px !important;
+}
+
+.pLeft40 {
+    padding-left : 40px !important;
+}
+
+.pRight30 {
+    padding-right : 30px !important;
+}
+
+.pLeft50 {
+    padding-left : 50px !important;
+}
+
+/* put in the correct position  */
+.blue {
+    color : blue;
+}
+
+.green {
+    color : green;
+}
+
+.greenHilite {
+    color : green;
+}
+
+.black {
+    color : black;
+}
+
+.red {
+    color : red;
+}
+
+.mimRed {
+    color : #5d0000;
+}
+.mimYellow {
+    color : #faf99e;
+}
+
+.fs10 {
+    font-size : 10px !important;
+}
+
+.fs11 {
+    font-size : 11px !important;
+}
+
+.fs12 {
+    font-size : 12px !important;
+}
+.fs13 {
+    font-size : 13px !important;
+}
+
+.fs14 {
+    font-size : 14px !important;
+}
+
+.fs15 {
+    font-size : 15px;
+}
+
+.fs16 {
+    font-size : 16px;
+}
+
+.fs17 {
+    font-size : 17px;
+}
+
+.fs18 {
+    font-size : 18px;
+}
+
+.fs19 {
+    font-size : 19px;
+}
+
+.fs20 {
+    font-size : 20px;
+}
+
+.fs22 {
+    font-size : 22px;
+}
+
+.fs24 {
+    font-size : 24px;
+}
+.fs28 {
+    font-size : 28px;
+}
+
+.fs30 {
+    font-size : 30px;
+}
+.thumbWrapper {
+    width    : 300px;
+    overflow : hidden;
+    position : relative;
+    margin   : 0 auto;
+}
+.thumbWrapper a.popupImg {
+    /*display     : block;*/
+    /*position    : absolute;*/
+    /*width       : 350px;*/
+    /*min-height      : 170px;*/
+    /*left        : 50%;*/
+    /*margin-left : -175px;*/
+}
+.thumbWrapper a.popupImg img {
+    width     : auto !important;
+    max-width : 350px !important;
+    /*min-width : 300px !important;*/
+    margin    : 0 auto;
+    display   : block;
+}
+​

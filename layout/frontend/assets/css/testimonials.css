@@ -1,0 +1,32 @@
+.t-block {
+    margin: 0 10px;
+    padding: 20px;
+    border-bottom: 1px solid #e7e7e7;
+}
+.t-block.odd {
+    background-color: #f3f5f9;
+}
+.t-block.even {
+    background-color: #fafaff;
+}
+.t-screenshot {
+    margin-bottom: 20px;
+}
+.by-member {
+    font-size:15px;
+    font-weight:bold;
+    float:left;
+}
+.t-date {
+    font-size:13px;
+    color: #999999;
+    float:left;
+    margin-top:2px;
+    margin-left:10px;
+}
+.t-content {
+    margin-bottom : 25px;
+    font-size     : 16px;
+    color         : #333;
+    line-height   : 13px;
+}

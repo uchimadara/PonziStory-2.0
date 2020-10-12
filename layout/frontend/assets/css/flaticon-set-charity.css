@@ -1,0 +1,59 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 19/02/2016 14:48
+  	*/
+
+@font-face {
+  font-family: "flaticon-set-charity";
+  src: url("https://tdm.nghelpers.com/layout/frontend/assets/css/fonts/flaticons/flaticon-set-charity.eot");
+  src: url("https://tdm.nghelpers.com/layout/frontend/assets/css/fonts/flaticons/flaticon-set-charity.eot?#iefix") format("embedded-opentype"),
+       url("https://tdm.nghelpers.com/layout/frontend/assets/css/fonts/flaticons/flaticon-set-charity.woff") format("woff"),
+       url("https://tdm.nghelpers.com/layout/frontend/assets/css/fonts/flaticons/flaticon-set-charity.ttf") format("truetype"),
+       url("https://tdm.nghelpers.com/layout/frontend/assets/css/fonts/flaticons/flaticon-set-charity.svg#flaticon-set-charity") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "flaticon-set-charity";
+    src: url("https://tdm.nghelpers.com/layout/frontend/assets/css/fonts//flaticons/flaticon-set-charity.svg#flaticon-set-charity") format("svg");
+  }
+}
+
+[class^="flaticon-charity-"]:before, [class*=" flaticon-charity-"]:before,
+[class^="flaticon-charity-"]:after, [class*=" flaticon-charity-"]:after {   
+  font-family: "flaticon-set-charity";
+  font-style: normal;
+}
+
+.flaticon-charity-alms:before { content: "\f100"; }
+.flaticon-charity-animal-solidarity:before { content: "\f101"; }
+.flaticon-charity-awareness-ribbon:before { content: "\f102"; }
+.flaticon-charity-awareness-ribbon-inside-a-heart:before { content: "\f103"; }
+.flaticon-charity-child-hand-on-adult-hand:before { content: "\f104"; }
+.flaticon-charity-donation-box:before { content: "\f105"; }
+.flaticon-charity-dove-of-peace:before { content: "\f106"; }
+.flaticon-charity-dove-of-peace-1:before { content: "\f107"; }
+.flaticon-charity-drop-of-water-on-hand:before { content: "\f108"; }
+.flaticon-charity-food-donation:before { content: "\f109"; }
+.flaticon-charity-food-donation-1:before { content: "\f10a"; }
+.flaticon-charity-hand-holding-a-gift:before { content: "\f10b"; }
+.flaticon-charity-hand-holding-a-heart:before { content: "\f10c"; }
+.flaticon-charity-hand-holding-a-stalk:before { content: "\f10d"; }
+.flaticon-charity-hand-holding-balloons:before { content: "\f10e"; }
+.flaticon-charity-hands-with-hearts:before { content: "\f10f"; }
+.flaticon-charity-health-insurance:before { content: "\f110"; }
+.flaticon-charity-heart-on-the-palm:before { content: "\f111"; }
+.flaticon-charity-home-insurance:before { content: "\f112"; }
+.flaticon-charity-make-a-donation:before { content: "\f113"; }
+.flaticon-charity-make-an-online-donation:before { content: "\f114"; }
+.flaticon-charity-person-inside-a-heart:before { content: "\f115"; }
+.flaticon-charity-responsible-energy-use:before { content: "\f116"; }
+.flaticon-charity-responsible-use-of-water:before { content: "\f117"; }
+.flaticon-charity-shaking-hands-inside-a-heart:before { content: "\f118"; }
+.flaticon-charity-shelter:before { content: "\f119"; }
+.flaticon-charity-supportive-hands:before { content: "\f11a"; }
+.flaticon-charity-sweet-home:before { content: "\f11b"; }
+.flaticon-charity-world-in-your-hands:before { content: "\f11c"; }
+.flaticon-charity-world-peace:before { content: "\f11d"; }

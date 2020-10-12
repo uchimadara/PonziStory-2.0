@@ -1,0 +1,99 @@
+.refList {
+}
+.referredUser {
+    margin-bottom  : 10px;
+    border-bottom  : 1px solid lavender;
+    padding-bottom : 10px;
+    font-size: 14px;
+    display : block;
+}
+.referredUser.one {
+    background-color:lightyellow;
+}
+.referredUser.two {
+    background-color : #edffda;
+}
+.referredUser.three {
+    background-color : #e4ffed;
+}
+.referredUser.four {
+    background-color : #d4f0ff;
+}
+.referredUser.five {
+    background-color : #dbddff;
+}
+.referredUser.six {
+    background-color : #f1e1f5;
+}
+.referredUser.seven {
+    background-color : #f5d8e5;
+}
+.referredUser.eight {
+    background-color : #ffd5d5;
+}
+.referredUser.nine {
+    background-color : #ffddd1;
+}
+.referredUser.ten {
+    background-color : #fff8e4;
+}
+.referredUser.eleven {
+    background-color : #f3ffe3;
+}
+.referredUser.twelve {
+    background-color : #dcffdd;
+}
+.referredUser.thirteen {
+    background-color : #d6fffa;
+}
+.referredUser.fourteen {
+    background-color : #e4f8ff;
+}
+.referredUser.fifteen {
+    background-color : #fff6fe;
+}
+.level-number{
+    position   : relative;
+    float      : left;
+    left       : -21px;
+    top        : -10px;
+    font-size  : 24px !important;
+    background : white;
+}
+.level-number span {
+    margin-right : 5px;
+    color        : #ddd;}
+.refAvatar {
+    width:128px;
+}
+.refAvatar img {
+    max-width:60px;
+}
+.refUsername {
+    font-size: 15px !important;
+    font-weight: bold;
+}
+.refDetails {
+    margin-left:15px;
+    font-size: 14px !important;
+    float:left;
+    min-width : 234px;
+}
+.refAccountLevel {
+    font-size : .9em !important;
+}
+.refCreated {
+    font-size : .9em !important;
+}
+.noReferrals {
+    font-size : .9em !important;
+}
+.refReferrals {
+    font-size : 14px !important;
+}
+.refDownline {
+    padding-left:20px;
+    margin-top:10px;
+    display:none;
+    border-left:1px solid lightgray;
+}

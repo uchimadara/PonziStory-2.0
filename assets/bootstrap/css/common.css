@@ -1,0 +1,482 @@
+.clear {
+    clear  : both;
+    height : 0;
+}
+.noItems {
+    padding:10px;
+}
+.strikethrough {
+    text-decoration : line-through;
+}
+.underline {
+    text-decoration : underline;
+}
+
+.hidden {
+    display : none;
+}
+.error {
+    border : 1px solid #e34550;
+    background  : #ffc2c7 url(../../styles/images/ui-bg_highlight-soft_20_ffc2c7_1x100.png) 50% top repeat-x;
+    padding     : 2px 10px;
+    color       : #DA1928;
+    display     : inline-block;
+}
+.truncate {
+    width         : 90%;
+    white-space   : nowrap;
+    overflow      : hidden;
+    text-overflow : ellipsis;
+}
+.front-page {
+    padding    : 20px 0;
+    font-size  : 1.25em;
+    min-height : 450px;}
+
+.squareButton {
+    display               : inline-block;
+    border                : 1px solid #C92C40;
+    color                 : #faf99e;
+    padding               : 4px 8px;
+    background-color      : #990000;
+    text-decoration       : none;
+    /*-webkit-border-radius : 3px;*/
+    /*-moz-border-radius    : 3px;*/
+    /*border-radius         : 3px;*/
+    box-shadow            : 1px 1px 2px #333333;
+    font-family           : "Calibri", "Arial", sans-serif;
+}
+.squareButton:focus {
+    outline : none;
+}
+.squareButton.slim {
+    padding        : 2px 4px;
+    font-size      : 13px;
+    font-weight    : normal;
+    text-transform : uppercase;
+    line-height    : 12px;
+    box-shadow     : 1px 1px 2px #000000;
+}
+.squareButton:hover {
+    color            : #f4f399;
+    border           : 1px solid #ff0000;
+    text-decoration  : none;
+    background-color : #b00000;
+    text-shadow      : none;
+}
+.squareButton:active {
+    position   : relative;
+    top        : 1px;
+    box-shadow : none;
+}
+.squareButton.green {
+    border           : 1px solid #64AC67;
+    color            : #faf99e;
+    background-color : #1B331B;
+}
+.squareButton.green:hover {
+    color            : #faf99e;
+    border           : 1px solid #6bff75;
+    background-color : #095D06;
+}
+
+.btn.activeGreen {
+    color            : #faf99e;
+    border           : 1px solid #6bff75;
+    background-color : #095D06;
+    position   : relative;
+    top        : 1px;
+    box-shadow : none;
+    font-size : 10pt;
+}
+div.loading {
+    display      : block;
+    background   : url(../../../images/loader.gif) no-repeat;
+    height       : 35px;
+    width        : 130px;
+    padding-left : 35px;
+    font-size    : 1em;
+}
+div.loading:after {
+    content : 'Working...';
+}
+span.loading {
+    display      : inline-block;
+    background   : url(../../../images/loader.gif) no-repeat;
+    height       : 35px;
+    width        : 130px;
+    padding-left : 35px;
+    font-size    : 12px !important;
+}
+span.loading:after {
+    content : 'Working...';
+}
+
+.testoverlay {
+    background-color : rgba(255, 250, 205, 0.75);
+    display    : block;
+    filter     : alpha(opacity=50);
+    height     : 100%;
+    left       : 0;
+    opacity    : 0.5;
+    top        : 0;
+    width      : 100%;
+    z-index    : 1098;
+}
+
+.overlay {
+    background-color : #e5e5e5;
+    filter           : alpha(opacity=50);
+    height           : 100%;
+    left             : 0;
+    opacity          : 0.5;
+    position         : fixed;
+    top              : 0;
+    width            : 100%;
+    z-index          : 1098;
+}
+#objOverlay {
+    display : none;
+}
+
+/****** Payment Method Icons **********/
+span.ppIcon {
+    background     : url(../../images/deposit_methods.png) no-repeat 0 0;
+    display        : inline-block;
+    height         : 18px;
+    margin-right   : 8px;
+    vertical-align : top;
+    width          : 45px;
+}
+
+span.ppIcon.bw {
+    background-position : 0 0;
+}
+
+span.ppIcon.ok {
+    background-position : 0 -18px;
+}
+
+span.ppIcon.pm {
+    background-position : 0 -36px;
+}
+
+span.ppIcon.ap {
+    background-position : 0 -162px;
+}
+
+span.ppIcon.pp {
+    background-position : 0 -90px;
+}
+span.ppIcon.py {
+    background-position : 0 -71px;
+}
+span.ppIcon.pz {
+    background-position : 0 -54px;
+}
+span.ppIcon.wu {
+    background-position : 0 -108px;
+}
+
+span.ppIcon.st {
+    background-position : 0 -126px;
+}
+
+span.ppIcon.bc {
+    background-position : 0 -144px;
+}
+span.ppIcon.lc {
+    background-position : 0 -180px;
+}
+span.ppIcon.eb {
+    background-position : 0 -198px;
+}
+span.ppIcon.eb {
+    background-position : 0 -198px;
+}
+span.ppIcon.eb {
+    background-position : 0 -198px;
+}
+
+/**** Sizes and paddings ***/
+[class*="v-space"] {
+    display : block;
+    width   : 100%;
+    clear   : both;
+}
+
+.v-space-100 {
+    height : 100px;
+}
+.v-space-50 {
+    height : 50px;
+}
+
+.v-space-25 {
+    height : 25px;
+}
+
+.v-space-20 {
+    height : 20px;
+}
+
+.v-space-15 {
+    height : 15px;
+}
+
+.v-space-5 {
+    height : 5px;
+}
+
+div.floatLeft {
+    display : inline-block;
+    float   : left;
+}
+div.floatRight {
+    display : inline-block;
+    float   : right;
+}
+div.w800 {
+    width : 800px;
+}
+div.w125 {
+    width : 125px;
+}
+div.w200 {
+    width : 200px;
+}
+
+div.w60 {
+    width : 60px;
+}
+
+div.w875 {
+    width : 875px;
+}
+
+div.padding20 {
+    padding : 0 20px;
+}
+
+input.w80 {
+    width : 80px;
+}
+
+input.w45 {
+    width : 45em;
+}
+.left {
+    text-align : left !important;
+}
+
+.center {
+    text-align : center !important;
+}
+
+.right {
+    text-align : right !important;
+}
+
+.mLeft5 {
+    margin-left : 5px !important;
+}
+.mLeft10 {
+    margin-left : 10px !important;
+}
+.mLeft15 {
+    margin-left : 15px !important;
+}
+.mLeft20 {
+    margin-left : 20px !important;
+}
+.mLeft30 {
+    margin-left : 30px !important;
+}
+.mLeft50 {
+    margin-left : 50px !important;
+}
+.mLeft175 {
+    margin-left : 175px;
+}
+
+.mTop5 {
+    margin-top : 5px !important;
+}
+.mTop10 {
+    margin-top : 10px !important;
+}
+.mTop15 {
+    margin-top : 15px !important;
+}
+.mTop20 {
+    margin-top : 20px !important;
+}
+.mTop30 {
+    margin-top : 30px !important;
+}
+
+.mBottom5 {
+    margin-bottom : 5px !important;
+}
+.mBottom10 {
+    margin-bottom : 10px !important;
+}
+.mBottom20 {
+    margin-bottom : 20px !important;
+}
+.mBottom30 {
+    margin-bottom : 30px !important;
+}
+.mBottom40 {
+    margin-bottom : 40px !important;
+}
+
+.p10 {
+    padding : 10px;
+}
+
+.p15 {
+    padding : 15px;
+}
+
+.p20 {
+    padding : 20px;
+}
+
+.pb7 {
+    padding-bottom : 7px;
+}
+
+.p4 {
+    padding : 4px;
+}
+
+.pt7 {
+    padding-top : 7px;
+}
+.pt9 {
+    padding-top : 9px;
+}
+
+.pLeft25 {
+    padding-left : 25px !important;
+}
+
+.pLeft40 {
+    padding-left : 40px !important;
+}
+
+.pRight30 {
+    padding-right : 30px !important;
+}
+
+.pLeft50 {
+    padding-left : 50px !important;
+}
+
+/* put in the correct position  */
+.blue {
+    color : blue;
+}
+.gray {
+    color : #ccc;
+}
+.white {
+    color : #fff;
+}
+
+.green {
+    color : #2EC72E;
+}
+
+.greenHilite {
+    color : green;
+}
+
+.black {
+    color : black;
+}
+
+.red {
+    color : red;
+}
+
+.mimRed {
+    color : #5d0000;
+}
+.mimYellow {
+    color : #faf99e;
+}
+.yellow {
+    color: #ffff00;
+}
+.mimBlue {
+    color : #8fd2ff;
+}
+
+.fs10 {
+    font-size : 10px !important;
+}
+
+.fs11 {
+    font-size : 11px !important;
+}
+
+.fs12 {
+    font-size : 12px !important;
+}
+.fs13 {
+    font-size : 13px !important;
+}
+
+.fs14 {
+    font-size : 14px !important;
+}
+
+.fs15 {
+    font-size : 15px !important;
+}
+
+.fs16 {
+    font-size : 16px !important;
+}
+
+.fs17 {
+    font-size : 17px !important;
+}
+
+.fs18 {
+    font-size : 18px !important;
+}
+
+.fs19 {
+    font-size : 19px !important;
+}
+
+.fs20 {
+    font-size : 20px !important;
+}
+
+.fs22 {
+    font-size : 22px !important;
+}
+
+.fs24 {
+    font-size : 24px !important;
+}
+.fs28 {
+    font-size : 28px !important;
+}
+
+.fs30 {
+    font-size : 30px !important;
+}
+.lh25 {
+    line-height: 25px !important;
+}
+.arialBold {
+
+    font-family      : "Arial", sans-serif;
+    font-weight: bold;
+}
+

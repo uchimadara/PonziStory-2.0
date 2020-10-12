@@ -1,0 +1,20 @@
+.p-block {
+    margin: 0 10px;
+    padding: 20px;
+    border-bottom: 1px solid #e7e7e7;
+}
+.p-block.odd {
+    background-color: #f3f5f9;
+}
+.p-block.even {
+    background-color: #fafaff;
+}
+.p-title {
+    font-size : 2em;
+}
+.p-description {
+    font-size:1.5em;
+}
+.p-download {
+    margin-top:10px;
+}

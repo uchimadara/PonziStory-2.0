@@ -1,0 +1,1 @@
+    <div class="session_message <?=$class?>"><?=$message?></div>
