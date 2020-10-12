@@ -2,6 +2,8 @@
 > PonziStory 2.0 is a clone of the Popular Tradermoni p2p script. A typical Get Help and Provide help Script like MMM with top notch functionalities. 
 demo: https://tdm.nghelpers.com
 
+![Test Image 1](tdm.PNG)
+
 # Features
 * InvestMent
 * Recommitment
