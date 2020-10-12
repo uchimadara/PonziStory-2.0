@@ -33,7 +33,7 @@ demo: https://tdm.nghelpers.com
 6. THen run the url on a browser.
 
 To access Admin Panel
-First login with Admin details: Username: admin Password:admin then change the url to /admin eg. www.example.com/admin
+First login with Admin details: Username: admin Password:admina then change the url to /admin eg. www.example.com/admin
 
 Support: You want us to support u with Installation and setup send us a mail @ uchimadarasan@gmail.com
 
