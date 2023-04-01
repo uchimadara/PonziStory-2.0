@@ -1,5 +1,5 @@
 #Update 2023
-* Get Secured and Updated Clone Scripts. Investment, hyip,trading and ponzi scripts etc. Scripts like Ammdefi clone scripts, Afriq Arbitrage System(AAS) clone scripts, etc. in all currencies. We offer Consultation & development services. https://github.com/uchimadara/hyip_ponzi_clone
+* Get Secured and Updated Clone Scripts. Investment, hyip,trading and ponzi scripts etc. Scripts like Ammdefi clone scripts, Afriq Arbitrage System(AAS) clone scripts, Coinbot Clone Script etc. in all currencies. We offer Consultation & development services. https://github.com/uchimadara/hyip_ponzi_clone
 
 
 # PonziStory-2.0
