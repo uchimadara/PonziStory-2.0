@@ -1,3 +1,6 @@
+#Update 2024
+We will develop any script for you free of charge on a partnership as agreed. If Interested, send me a DM @uchimadarasan on Telegram or send an email to uchimadarasan@gmail.com
+
 #Update 2023
 * Get Secured and Updated Clone Scripts. Investment, hyip,trading and ponzi scripts etc. Scripts like Ammdefi clone scripts, Afriq Arbitrage System(AAS) clone scripts, Coinbot Clone Script etc. in all currencies. We offer Consultation & development services. https://github.com/uchimadara/hyip_ponzi_clone
 
